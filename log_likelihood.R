@@ -1,3 +1,4 @@
+# function(m) sum(dpois(data, m, log = TRUE))
 lambda <- 5.2
 
 log_likelihood <- vector(mode = "integer")
@@ -13,4 +14,3 @@ for (i in 1:length(data)) {
 }
 
 sum(log_likelihood)
-
